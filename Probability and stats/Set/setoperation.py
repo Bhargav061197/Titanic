@@ -44,3 +44,9 @@ print(set(itertools.product({2,3,4},repeat=2)))
 
 #proper set if a set contains in other set 
 #all value inside but not similar 
+
+
+
+#find the proper subset of 5 element
+#However, you only want to know the number of proper subsets, the power set contains all valid subsets. There is only 1 subset of A we don’t want to use and that’s the one that’s equal to itself.
+#2^5-1
